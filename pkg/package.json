@@ -1,0 +1,15 @@
+{
+  "name": "myweb",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "myweb_bg.wasm",
+    "myweb.js",
+    "myweb.d.ts"
+  ],
+  "main": "myweb.js",
+  "types": "myweb.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
